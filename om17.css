@@ -1,5 +1,10 @@
+#masthead a {
+	text-decoration: none;
+	color: black;
+}
+
 #content {
-	border: 10px solid black;
+	border: 5px solid black;
 }
 
 .page-content, .entry-content, .entry-summary {
@@ -15,23 +20,27 @@
 }
 
 .main-navigation {
-	display: block;
 	float: none;
 	clear: none;
 	width: 100%;
 }
 
 .main-navigation, .site-branding p {
-	margin:1em;
+	margin: 1em;
 }
 
 .main-navigation li {
-	padding-right: 30px;
+	padding: 5px 15px;
 }
 
 .menu-main-nav-container {
 	float: right;
-	padding-bottom: 10px;
+	padding-right: 1em;
+}
+
+.current-menu-item {
+	border: 5px solid black;
+	border-bottom: none;
 }
 
 .split {
@@ -39,7 +48,7 @@
 }
 
 .divider-bar {
-	width: 10px;
+	width: 5px;
 	min-height: 100%;
 	background-color: black;
 }
@@ -51,4 +60,21 @@
 .content-section {
 	/*border-left: 10px solid black;*/
 	padding: 0 10px;
+}
+
+.site-info {
+	margin: 0 0 1em 0;
+}
+
+.site-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.site-info span {
+	line-height: 30px;
+	padding: 0 10px;
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	display: inline-block;
 }

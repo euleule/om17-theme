@@ -11,15 +11,22 @@
 
 ?>
 
-	</div><!-- #content -->
+</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'om17' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'om17' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'om17' ), 'om17', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="site-info">
+			<span>
+				<a href="#">Impressum</a>
+			</span>
+		<span class="sep"> | </span>
+		<span>
+			<a href="#">Twitter</a>
+		</span>
+		<span>
+			<a href="#">Facebook</a>
+		</span>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
