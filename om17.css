@@ -1,0 +1,54 @@
+#content {
+	border: 10px solid black;
+}
+
+.page-content, .entry-content, .entry-summary {
+	margin: 0;
+}
+
+.hentry {
+	margin: 0;
+}
+
+.site-branding {
+	float: left;
+}
+
+.main-navigation {
+	display: block;
+	float: none;
+	clear: none;
+	width: 100%;
+}
+
+.main-navigation, .site-branding p {
+	margin:1em;
+}
+
+.main-navigation li {
+	padding-right: 30px;
+}
+
+.menu-main-nav-container {
+	float: right;
+	padding-bottom: 10px;
+}
+
+.split {
+	display: flex;
+}
+
+.divider-bar {
+	width: 10px;
+	min-height: 100%;
+	background-color: black;
+}
+
+.split-section {
+	width: 50%;
+}
+
+.content-section {
+	/*border-left: 10px solid black;*/
+	padding: 0 10px;
+}

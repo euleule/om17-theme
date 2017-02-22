@@ -106,6 +106,7 @@ add_action( 'widgets_init', 'om17_widgets_init' );
  */
 function om17_scripts() {
 	wp_enqueue_style( 'om17-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'om17-additional-styles', get_template_directory_uri().'/om17.css' );
 
 	wp_enqueue_script( 'om17-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
