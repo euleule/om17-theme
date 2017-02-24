@@ -18,8 +18,9 @@
 					the_post_thumbnail(array(600, 600));
 				} else {
 					?>
-					Here should be the logo!
-					<?php
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/om17-logo1.jpg">
+
+                    <?php
 				}
 				?>
 			</div>
