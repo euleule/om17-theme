@@ -2,6 +2,7 @@ body {
 	height: 100%;
 	position: relative;
 	min-height: 100%;
+	font-family: 'Share Tech Mono', monospace;
 }
 
 header {
