@@ -20,10 +20,10 @@
         </span>
         <div class="footer-right">
             <span>
-                <a href="#">Twitter</a>
+                <a href="https://twitter.com/openmindkonf" target="_blank">Twitter</a>
             </span>
             <span>
-                <a href="#">Facebook</a>
+                <a href="https://www.facebook.com/openmind.konferenz" target="_blank">Facebook</a>
             </span>
         </div>
     </div><!-- .site-info -->
