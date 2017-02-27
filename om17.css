@@ -1,3 +1,7 @@
+html {
+	height: 100%;
+}
+
 body {
 	height: 100%;
 	position: relative;
@@ -43,6 +47,10 @@ footer {
 	box-sizing: border-box;
 	height: 100%;
 	padding: 55px 0;
+}
+
+#page, #primary, #main, article, .entry-content, .split {
+	height: 100%;
 }
 
 .page-content, .entry-content, .entry-summary {
@@ -104,8 +112,8 @@ footer {
 }
 
 .content-section {
-	/*border-left: 10px solid black;*/
 	padding: 0 10px;
+	overflow: auto;
 }
 
 .site-info {
@@ -121,7 +129,7 @@ footer {
 	line-height: 30px;
 	padding: 4px 10px;
 	border: 5px solid black;
-	border-top:none;
+	border-top: none;
 	display: inline-block;
 }
 
