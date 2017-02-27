@@ -14,18 +14,19 @@
 </div><!-- #content -->
 
 <footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="site-info">
-			<span>
-				<a href="#">Impressum</a>
-			</span>
-		<span class="sep"> | </span>
-		<span>
-			<a href="#">Twitter</a>
-		</span>
-		<span>
-			<a href="#">Facebook</a>
-		</span>
-	</div><!-- .site-info -->
+    <div class="site-info">
+        <span>
+            <a href="#">Impressum</a>
+        </span>
+        <div class="footer-right">
+            <span>
+                <a href="#">Twitter</a>
+            </span>
+            <span>
+                <a href="#">Facebook</a>
+            </span>
+        </div>
+    </div><!-- .site-info -->
 </footer><!-- #colophon -->
 </div><!-- #page -->
 
