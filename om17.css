@@ -196,4 +196,14 @@ footer {
 	.split-section {
 		width: 50%;
 	}
+
+	.image-section {
+		position: relative;
+	}
+
+	.image-section img {
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%)
+	}
 }
