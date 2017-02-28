@@ -16,7 +16,7 @@
 <footer id="colophon" class="site-footer" role="contentinfo">
     <div class="site-info">
         <span>
-            <a href="#">Impressum</a>
+            <a href="<?php echo esc_url(home_url('/')); ?>impressum">Impressum</a>
         </span>
         <div class="footer-right">
             <span>
