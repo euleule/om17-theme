@@ -129,6 +129,27 @@ footer {
 	.image-section img{
 		margin: auto;
 	}
+
+	.menu-toggle {
+		border: none;
+		background-color: white;
+		font-family: 'Share Tech Mono', monospace;
+		font-size: 1em;
+		position: absolute;
+		right: 5px;
+		top: 10px;
+	}
+
+	/*.menu-toggle:focus,*/
+	/*.menu-toggle:active,*/
+	.menu-toggle[aria-expanded="true"]{
+		box-shadow: none;
+		text-shadow: none;
+		border:5px solid black;
+		border-radius: 0;
+		top: 5px;
+		right: 0;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
