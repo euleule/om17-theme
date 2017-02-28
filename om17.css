@@ -126,7 +126,7 @@ footer {
 		text-align: center
 	}
 
-	.image-section img{
+	.image-section img {
 		margin: auto;
 	}
 
@@ -140,15 +140,41 @@ footer {
 		top: 10px;
 	}
 
-	/*.menu-toggle:focus,*/
-	/*.menu-toggle:active,*/
-	.menu-toggle[aria-expanded="true"]{
+	.menu-toggle[aria-expanded="true"] {
 		box-shadow: none;
 		text-shadow: none;
-		border:5px solid black;
+		border: 5px solid black;
 		border-radius: 0;
 		top: 5px;
 		right: 0;
+	}
+
+	.menu-main-nav-container li.menu-item {
+		float: none;
+		border-bottom: 5px solid black;
+		padding-top: 20px;
+	}
+
+	.menu-main-nav-container {
+		background-color: white;
+		position: absolute;
+		top: 55px;
+		left: 0;
+		width: 100%;
+		padding: 0;
+		border-left: 5px solid black;
+		border-right: 5px solid black;
+	}
+
+	.current-menu-item {
+		border: none;
+	}
+
+	.main-navigation .current_page_item > a,
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current_page_ancestor > a,
+	.main-navigation .current-menu-ancestor > a {
+		margin-top: 0;
 	}
 }
 
