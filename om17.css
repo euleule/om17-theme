@@ -19,6 +19,10 @@ header {
 	border-bottom: 5px solid black;
 }
 
+body.admin-bar header {
+	top: 32px;
+}
+
 footer {
 	height: 55px;
 	width: 100%;
@@ -76,6 +80,7 @@ footer {
 	margin-top: -10px;
 }
 
+.menu-navigation-container,
 .menu-main-nav-container {
 	float: right;
 	padding-right: 1em;
@@ -149,12 +154,14 @@ footer {
 		right: 0;
 	}
 
+	.menu-navigation-container li.menu-item,
 	.menu-main-nav-container li.menu-item {
 		float: none;
 		border-bottom: 5px solid black;
 		padding-top: 20px;
 	}
 
+	.menu-navigation-container,
 	.menu-main-nav-container {
 		background-color: white;
 		position: absolute;
@@ -179,7 +186,12 @@ footer {
 }
 
 @media only screen and (min-width: 1024px) {
-	#page, #primary, #main, article, .entry-content, .split {
+	#page,
+	#primary,
+	#main,
+	article,
+	.entry-content,
+	.split {
 		height: 100%;
 	}
 
