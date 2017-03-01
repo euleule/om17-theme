@@ -125,6 +125,10 @@ footer {
 	position: relative;
 }
 
+.image-section img {
+	max-height: 100%;
+}
+
 @media only screen and ( max-width: 690px) {
 	.menu-toggle {
 		border: none;
