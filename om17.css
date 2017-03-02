@@ -72,18 +72,18 @@ footer {
 }
 
 .main-navigation, .site-branding p {
-	margin: 1em;
+	margin: 1em 1em 1em 23px;
 }
 
 .main-navigation li {
-	padding: 12px 10px 8px 10px;
+	padding: 12px 20px 8px 20px;
 	margin-top: -10px;
 }
 
 .menu-navigation-container,
 .menu-main-nav-container {
 	float: right;
-	padding-right: 1em;
+	padding-right: 23px;
 }
 
 .current-menu-item {
@@ -99,7 +99,7 @@ footer {
 }
 
 .content-section {
-	padding: 0 10px;
+	padding: 0 23px;
 	overflow: auto;
 }
 
