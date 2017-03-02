@@ -24,7 +24,7 @@ body.admin-bar header {
 }
 
 footer {
-	height: 55px;
+	height: 48px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -104,7 +104,7 @@ footer {
 }
 
 .site-info {
-	margin: 0 0 1em 0;
+	margin: 0;
 }
 
 .site-info a {
@@ -129,7 +129,7 @@ footer {
 	max-height: 100%;
 }
 
-@media only screen and ( max-width: 690px) {
+@media only screen and ( max-width: 779px) {
 	.menu-toggle {
 		border: none;
 		background-color: white;

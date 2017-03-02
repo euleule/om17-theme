@@ -611,7 +611,7 @@ a:active {
 	display: block;
 }
 
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 780px) {
 	.menu-toggle {
 		display: none;
 	}
