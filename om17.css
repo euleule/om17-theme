@@ -160,12 +160,16 @@ footer {
 	.menu-main-nav-container {
 		background-color: white;
 		position: absolute;
-		top: 55px;
+		top: 42px;
 		left: 0;
 		width: 100%;
 		padding: 0;
-		border-left: 5px solid black;
-		border-right: 5px solid black;
+	}
+
+	#site-navigation.toggled .menu-navigation-container,
+	#site-navigation.toggled .menu-main-nav-container {
+		border: 5px solid black;
+		border-bottom: none;
 	}
 
 	.current-menu-item {
@@ -209,6 +213,7 @@ footer {
 
 	.split {
 		display: flex;
+		overflow: hidden;
 	}
 
 	.split-section {
@@ -226,6 +231,6 @@ footer {
 	}
 }
 
-body, a{
+body, a {
 	cursor: url(images/cursor.png) 30 30, auto;
 }
