@@ -184,6 +184,22 @@ footer {
 	}
 }
 
+@media screen and (min-width: 780px) {
+	.menu-item:hover {
+		border: 5px solid black;
+		border-bottom: none;
+		padding: 12px 15px 8px 15px;
+	}
+
+	.current-menu-item.menu-item:hover {
+		padding: 12px 20px 8px 20px;
+	}
+
+	.main-navigation .menu-item:hover > a {
+		margin-top: -5px;
+	}
+}
+
 @media only screen and (max-width: 1023px) {
 	.image-section {
 		border-bottom: 5px solid black;
