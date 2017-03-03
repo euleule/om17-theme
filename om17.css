@@ -10,7 +10,7 @@ body {
 }
 
 header {
-	height: 55px;
+	height: 49px;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -20,7 +20,7 @@ header {
 }
 
 body.admin-bar header {
-	top: 32px;
+	top: 26px;
 }
 
 footer {
@@ -50,7 +50,7 @@ footer {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	height: 100%;
-	padding: 55px 0 48px 0;
+	padding: 49px 0 48px 0;
 }
 
 .page-content, .entry-content, .entry-summary {
@@ -72,7 +72,7 @@ footer {
 }
 
 .main-navigation, .site-branding p {
-	margin: 1em 1em 1em 23px;
+	margin: 10px 1em 1em 23px;
 }
 
 .main-navigation li {
