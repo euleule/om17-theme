@@ -213,7 +213,7 @@ footer {
 
 	.split {
 		display: flex;
-		overflow: hidden;
+		overflow: hidden; /* for IE compatibility */
 	}
 
 	.split-section {
